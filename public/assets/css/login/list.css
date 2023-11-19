@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(110, 106, 182);
+    background: linear-gradient(
+        69deg,
+        rgba(110, 106, 182, 1) 0%,
+        rgba(16, 215, 255, 1) 100%
+    );
+    background-repeat: no-repeat;
+    height: 100vh !important;
+}
+
+.box {
+    margin-top: 60px !important;
+    width: 30%;
+    height: 480px;
+    background-color: rgba(221, 220, 220, 0.302);
+    border-radius: 16px;
+}
+
+.box .box_header {
+    width: 100%;
+    height: 120px;
+    background-color: #6e6ab6;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.box .box_header img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.box__header img {
+    padding-top: 10px;
+}
+
+.box_body input[type="text"] {
+    border-radius: 3px !important;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+
+.box_body input[type="password"] {
+    border-bottom-right-radius: 0% !important;
+    border-bottom-left-radius: 3px !important;
+    border-top-right-radius: 0% !important;
+    border-top-left-radius: 3px !important;
+    background-color: rgba(255, 255, 255, 0.549);
+}
+
+.box_body .ic_password {
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+    background-color: #6e6ab6;
+    color: white;
+    border: none;
+    width: 40px;
+}
