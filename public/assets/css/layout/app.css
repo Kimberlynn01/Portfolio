@@ -1,0 +1,39 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.sidebar {
+    min-height: 100vh !important;
+    max-width: 100vh !important;
+    width: 240px !important;
+    background-color: #022952;
+    overflow: hidden;
+}
+
+.side_title {
+    padding: 24px;
+}
+
+.side_title .title {
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.side_content ul li {
+    list-style-type: none;
+}
+
+.side_content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.side_footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.side_footer a {
+    cursor: pointer;
+}

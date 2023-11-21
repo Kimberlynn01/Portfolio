@@ -30,5 +30,10 @@ Route::middleware(['guest'])->group(function () {
 
 Route::middleware(['auth'])->group(function () {
 
-    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::prefix('/dashboard')
+    ->name('dashboard.')
+    ->group(function () {
+        Route::get('/', [DashboardController::class, 'index'])->name('index');
+        Route::get('/data', [DashboardController::class, 'data'])->name('data');
+    });
 });
